@@ -2,43 +2,19 @@
 
 > shouldComponentUpdate false for react w/ a render prop
 
-
 ## Install
 
 ```
 $ npm install --save react-no-update
 ```
 
-
 ## Usage
 
 ```js
-var reactNoUpdate = require('react-no-update')
+var NoUpdate = require('react-no-update')
 
-reactNoUpdate('input')
-//=> output
+<NoUpdate render={() => <div>I won't update</div>} />
 ```
-
-## API
-
-#### `reactNoUpdate(input, [options])` -> `output`
-
-##### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-##### options
-
-###### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
-
 
 ## License
 

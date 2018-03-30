@@ -23,5 +23,8 @@
   "files": [
     "index.js",
     "test.js"
-  ]
+  ],
+  "peerDependencies": {
+    "react": "16.x"
+  }
 }
