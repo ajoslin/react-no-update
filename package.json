@@ -1,0 +1,27 @@
+{
+  "name": "react-no-update",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "shouldComponentUpdate false for react w/ a render prop",
+  "license": "MIT",
+  "repository": "ajoslin/react-no-update",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "react do not update render"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
