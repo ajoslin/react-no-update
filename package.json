@@ -1,7 +1,7 @@
 {
   "name": "react-no-update",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "shouldComponentUpdate false for react w/ a render prop",
   "license": "MIT",
   "repository": "ajoslin/react-no-update",
