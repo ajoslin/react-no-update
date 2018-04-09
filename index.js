@@ -7,7 +7,7 @@ function NoUpdate (props) {
   React.Component.call(this, props)
 }
 
-NoUpdate.prototype.componentShouldUpdate = function () {
+NoUpdate.prototype.shouldComponentUpdate = function () {
   return false
 }
 
